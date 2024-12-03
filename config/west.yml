@@ -1,12 +1,13 @@
 manifest:
   remotes:
-    - name: urob
-      url-base: https://github.com/urob
+    - name: zmkfirmware
+      url-base: https://github.com/petejohanson
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: zmk
-      remote: urob
-      revision: main
+      remote: zmkfirmware
+      revision: feat/pointers-with-input-processors
       import: app/west.yml
   self:
     path: config
-
