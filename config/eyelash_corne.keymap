@@ -46,10 +46,25 @@
     };
     combos {
          compatible = "zmk,combos";
-         combo_shift {
+         combo_Lshift {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <&kp SHIFT>;
+            bindings = <&kp LEFT_SHIFT>;
+         };
+         combo_Rshift {
+            timeout-ms = <50>;
+            key-positions = <23 24>;
+            bindings = <&kp RIGHT_SHIFT>;
+         };
+         combo_LCaps {
+            timeout-ms = <50>;
+            key-positions = <16 17 45>;
+            bindings = <&kp CAPS>;
+         };
+         combo_RCaps {
+            timeout-ms = <50>;
+            key-positions = <23 24 45>;
+            bindings = <&kp CAPS>;
          };
     };
     keymap {
