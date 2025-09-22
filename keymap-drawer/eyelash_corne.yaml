@@ -198,4 +198,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [16, 17]
-  k: SHIFT
+  k: $$mdi:apple-keyboard-shift$$
+- p: [23, 24]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [16, 17, 45]
+  k: $$mdi:apple-keyboard-caps$$
+- p: [23, 24, 45]
+  k: $$mdi:apple-keyboard-caps$$
